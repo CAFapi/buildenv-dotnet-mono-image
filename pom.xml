@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 
-    Copyright 2021 Micro Focus or one of its affiliates.
+    Copyright 2022 Micro Focus or one of its affiliates.
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -29,14 +29,14 @@
 
     <groupId>com.github.cafapi</groupId>
     <artifactId>buildenv-dotnet-mono-image</artifactId>
-    <version>1.1.0-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>DotNet 6 Build Environment with Mono Image</name>
     <description>An openSUSE-based build environment image for .NET 6 projects</description>
     <url>https://github.com/CAFapi/buildenv-dotnet-mono-image</url>
 
-    <inceptionYear>2021</inceptionYear>
+    <inceptionYear>2022</inceptionYear>
 
     <licenses>
         <license>
@@ -47,19 +47,14 @@
 
     <developers>
         <developer>
-            <id>DavidGerald-Milligan</id>
-            <name>David Milligan</name>
-            <email>davidgerald.milligan@microfocus.com</email>
-        </developer>
-        <developer>
             <id>dermot-hardy</id>
             <name>Dermot Hardy</name>
             <email>dermot.hardy@microfocus.com</email>
         </developer>
         <developer>
-            <id>tonymcveigh</id>
-            <name>Tony McVeigh</name>
-            <email>tony.mcveigh@microfocus.com</email>
+            <id>kploch</id>
+            <name>Krzysztof Ploch</name>
+            <email>krzysztof.ploch@microfocus.com</email>
         </developer>
     </developers>
 
