@@ -20,7 +20,7 @@ ARG DOCKER_HUB_PUBLIC=docker.io
 FROM ${DOCKER_HUB_PUBLIC}/cafapi/buildenv-dotnet:1.0.0
 CMD ["bash"]
 
-RUN zypper addrepo https://download.opensuse.org/repositories/home:zkrd2:mono/15.4/home:zkrd2:mono.repo \
+RUN zypper -n addrepo https://download.opensuse.org/repositories/home:zkrd2:mono/15.4/home:zkrd2:mono.repo \
 	&& zypper refresh \
 	&& zypper -n update \
 	&& zypper install msbuild
