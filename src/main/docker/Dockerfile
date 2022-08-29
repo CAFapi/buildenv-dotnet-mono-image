@@ -18,7 +18,6 @@
 ARG DOCKER_HUB_PUBLIC=docker.io
 
 FROM ${DOCKER_HUB_PUBLIC}/cafapi/buildenv-dotnet:1.0.0
-CMD ["bash"]
 
 # Copy in zypper repo key
 COPY dev_zypper_repo_key.pub .
@@ -28,4 +27,4 @@ RUN zypper -n addrepo https://download.opensuse.org/repositories/home:zkrd2:mono
 	rm dev_zypper_repo_key.pub && \
 	zypper -n refresh && \
 	zypper -n update && \
-	zypper -n install msbuild
+	zypper -n install --force-resolution --replacefiles msbuild
