@@ -22,7 +22,7 @@ FROM ${DOCKER_HUB_PUBLIC}/cafapi/prereleases:buildenv-dotnet-1.1.0-SNAPSHOT
 # Copy in zypper repo key
 COPY dev_zypper_repo_key.pub .
 
-RUN zypper -n addrepo https://download.opensuse.org/repositories/home:zkrd2:mono/15.4/home:zkrd2:mono.repo && \
+RUN zypper -n addrepo https://download.opensuse.org/repositories/home:/lemmy04/15.4/home:lemmy04.repo && \
     rpmkeys --import dev_zypper_repo_key.pub && \
     rm dev_zypper_repo_key.pub && \
     zypper -n refresh && \
