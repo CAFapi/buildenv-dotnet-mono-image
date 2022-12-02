@@ -40,7 +40,7 @@ function buildenv-dotnet-mono {
     -e HTTP_PROXY -e HTTPS_PROXY -e NO_PROXY \
     -e http_proxy -e https_proxy -e no_proxy \
     -w "$(pwd)" \
-    cafapi/prereleases:buildenv-dotnet-mono-1.0.0-SNAPSHOT "$@";
+    cafapi/buildenv-dotnet-mono:1.0.0 "$@";
 }
 ```
 
