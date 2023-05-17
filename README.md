@@ -1,4 +1,4 @@
-# DotNet 6 Build Environment Image With Mono
+# DotNet Build Environment Image With Mono
 
 This project builds a Docker image that contains the tooling necessary to build .NET projects with Mono commands.
 
