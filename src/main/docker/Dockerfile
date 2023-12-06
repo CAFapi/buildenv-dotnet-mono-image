@@ -17,7 +17,7 @@
 # Docker registry
 ARG DOCKER_HUB_PUBLIC=docker.io
 
-FROM ${DOCKER_HUB_PUBLIC}/cafapi/buildenv-dotnet:2
+FROM ${DOCKER_HUB_PUBLIC}/cafapi/buildenv-dotnet:3
 
 # Copy in zypper repo key
 COPY dev_zypper_repo_key.pub .
