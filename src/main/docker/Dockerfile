@@ -14,10 +14,7 @@
 # limitations under the License.
 #
 
-# Docker registry
-ARG DOCKER_HUB_PUBLIC=docker.io
-
-FROM ${DOCKER_HUB_PUBLIC}/cafapi/buildenv-dotnet:3
+FROM ${projectDockerRegistry}/cafapi/buildenv-dotnet
 
 # Copy in zypper repo key
 COPY dev_zypper_repo_key.pub .
