@@ -93,8 +93,8 @@
                     <imageManagement>
                         <image>
                             <repository>${dockerHubPublic}/cafapi/buildenv-dotnet</repository>
-                            <tag>3.1.1</tag>
-                            <digest>sha256:065150641a943356f5ca117a433392d072d5708469b24d1c02a52e88760cb364</digest>
+                            <tag>3.1.2</tag>
+                            <digest>sha256:7b93dc5d630e2310e318786e4bfc439b0bd06227cc3c774127ae71ac39761e09</digest>
                         </image>
                     </imageManagement>
                 </configuration>
